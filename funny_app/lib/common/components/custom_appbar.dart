@@ -18,7 +18,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SvgPicture.asset(Assets.icons.logo, width: 70.0.w),
+          Image.asset(Assets.icons.logoPng.path, width: 70.0.w),
           const Spacer(),
           RichText(
             textAlign: TextAlign.end,
